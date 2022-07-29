@@ -156,7 +156,7 @@ router.post('/purchase', async (req, res) => {
                 conn.release();
                 if (err) throw err;
                 console.log('record inserted');
-                res.redirect('http://localhost:3000/product');
+                res.redirect('http://34.227.106.42:3000/product');
             })
 
         } catch (err) {
@@ -177,7 +177,7 @@ router.post('/delete', async (req, res) => {
                 conn.release();
                 if (err) throw err;
                 console.log('checkout complete');
-                res.redirect('http://localhost:3000/home');
+                res.redirect('http://34.227.106.42:3000/home');
             })
 
         } catch (err) {

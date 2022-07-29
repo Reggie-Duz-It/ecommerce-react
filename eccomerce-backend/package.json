@@ -9,7 +9,7 @@
 
   "proxy": {
     "/api":  {
-        "target": "http://localhost:3000"
+        "target": "http://34.227.106.42:3000/product"
     }
 },
   "keywords": [],
