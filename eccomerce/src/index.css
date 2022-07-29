@@ -1,0 +1,726 @@
+nav {
+  position: absolute;
+  overflow: hidden;
+  background-color: grey;
+  margin: 0px;
+  padding: 0px;
+  left: 338px;
+  top: 90px;
+  border-radius: 13px;
+  height: 30px;
+  width: 738px;
+  /*938px*/
+  border: 3px solid black;
+  
+}
+
+nav>ul>li {
+  position: relative;
+  top: -10px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px;
+  display: block;
+  font-size: 14px;
+  width: 200px;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serf;
+  font-weight: bold;
+}
+
+nav>ul>li:hover {
+  background-color: orange;
+  color: black !important;
+}
+nav>ul>li:active {
+  background-color: #04AA6D;
+  color: black;
+}
+
+#sc {
+  position: absolute;
+  top: 40px;
+  left: 1000px;
+}
+
+#headlogo {
+  position: absolute;
+  left: 330px;
+}
+
+#sidebar1 {
+  position: absolute;
+  width: 280px;
+  height: 1320px;
+  background-color: grey;
+  left: -20px;
+  top: -10px;
+  border: 3px solid black;
+  
+}
+
+#sidebar2 {
+  position: absolute;
+  left: 1156px;
+  width: 279px;
+  height: 1320px;
+  background-color: grey;
+  top: -10px;
+  border: 3px solid black;
+}
+
+#nxt {
+  position: absolute;
+  top: -200px;
+  left: 1020px;
+  z-index: 50;
+}
+
+#nxt2 {
+  position: absolute;
+  top: 220px;
+  left: 900px;
+  z-index: 50;
+}
+
+#bck {
+  position: absolute;
+  top: 220px;
+  left: -300px;
+  z-index: 50;
+}
+
+#bck2 {
+  position: absolute;
+  top: 500px;
+  left: 80px;
+  z-index: 50;
+}
+
+#slideshow {
+  position: absolute;
+  left: 208px;
+  top: 265px;
+  width: 912px;
+  height: 330px;
+  z-index: 9;
+}
+
+.fadein img {
+  -webkit-animation-name: fade;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 12s;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 12s;
+}
+
+@-webkit-keyframes fade {
+  0% {opacity: 1;}
+  17% {opacity: 1;}
+  25% {opacity: 0;}
+  92% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes fade {
+  0% {opacity: 1;}
+  17% {opacity: 1;}
+  25% {opacity: 0;}
+  92% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#fd1 {
+  position: absolute;
+  animation-delay: 9s;
+  /*width: 100%;*/
+  height: 550px;
+  width: 730px;
+  top: -150px;
+  left: 100px;
+  z-index: 9;
+}
+
+#fd2 {
+  position: absolute;
+  animation-delay: 6s;
+  top: -150px;
+  left: 100px;
+  height: 550px;
+  width: 730px;
+  z-index: 9;
+}
+
+#fd3 {
+  position: absolute;
+  animation-delay: 3s;
+  top: -150px;
+  left: 100px;
+  height: 550px;
+  width: 730px;
+  z-index: 9;
+}
+
+#welcomeh1 {
+  position: absolute;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+  left: 568px;
+  top: 115px;
+}
+
+#welcomelogo {
+  position: absolute;
+  left: 518px;
+  top: 165px;
+}
+
+#welcomeimage {
+  position: absolute;
+  left: 398px;
+  top: 235px;
+  z-index: 1;
+}
+
+.article-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  border: 3px solid black;
+  position: relative;
+  top: 673px;
+  left: 252px;
+  height: 500px;
+  width: 896px;
+}
+
+.grid-item1 {
+  background-color: #04AA6D;
+  border: 1px solid black;
+}
+
+.grid-item1 h2 {
+  position: absolute;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+  font-size: 28px;
+  top: 60px;
+  left: 130px;
+}
+
+.grid-item2 {
+  border: 1px solid black;
+}
+
+.grid-item2 p {
+  position: absolute;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+  width: 350px;
+  left: 495px;
+}
+
+#us {
+  position: absolute;
+  top: 160px;
+  left: 80px;
+}
+
+#bottom {
+  position: absolute;
+  width: 1440px;
+  height: 140px;
+  top: 1185px;
+  left: 0px;
+  background-color: rgb(20, 20, 53);
+  color: orange;
+  
+}
+
+#copy {
+  position: absolute;
+  font-size: 12px;
+  left: 150px;
+  top: 80px;
+}
+
+#reserved {
+  position: absolute;
+  font-size: 12px;
+  left: 150px;
+  top: 107px;
+}
+
+#footerlogo {
+  position: relative;
+  left: 150px;
+
+}
+
+#contactfooter {
+  position: absolute;
+  top: 10px;
+  left: 630px;
+  font-size: 20px;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+}
+
+#fb, #ig, #tw {
+  position: absolute;
+  top: 70px;
+}
+
+#fb {
+  left: 500px;
+}
+
+#ig {
+  left: 700px;
+}
+
+#tw {
+  left: 900px;
+}
+
+#bottom a span:hover {
+  transform: scale(1.3);
+}
+
+#pixelslide {
+  position: absolute;
+  left: 500px;
+  top: -10px;
+  z-index: 0;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(330%);
+  }
+}
+
+.startslide {
+  -webkit-animation: 1s ease-out 0s 1 slideInFromLeft normal forwards;
+  -moz-animation: 1s ease-out 0s 1 slideInFromLeft normal forwards;
+  -ms-animation: 1s ease-out 0s 1 slideInFromLeft normal forwards;
+  -o-animation: 1s ease-out 0s 1 slideInFromLeft normal forwards;
+  animation: 1s ease-out 0s 1 slideInFromLeft normal forwards;
+}
+
+#article2 {
+  position: absolute;
+  border: 3px solid black;
+  padding: 100px;
+  width: 800px;
+  height: 850px;
+  top: 150px;
+  left: 240px;
+  background-color: gold;
+}
+
+#producthead {
+  position: absolute;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+  font-family: 14px;
+  top: 180px;
+  left: 585px;
+}
+
+.grid-container2 {
+  position: absolute;
+  top: 270px;
+  left: 380px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0px;
+}
+
+.grid-container2 > .grid-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.products:hover {
+ transform: scale(1.3);
+ cursor: pointer;
+}
+
+#title {
+  font-size: 11px;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+}
+
+#price {
+  font-size: 11px;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 52;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0);
+}
+
+.modal-content {
+  background-color: gold;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 500px;
+}
+
+.modalimg {
+  position: absolute;
+  top: 200px;
+  left: 470px;
+}
+
+.price {
+  position: absolute;
+  top: 250px;
+  left: 630px;
+}
+
+.description {
+  position: absolute;
+  top: 290px;
+  left: 530px;
+  width: 660px;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#article3 {
+border: 3px solid black;
+position: absolute;
+top: 150px;
+left: 250px;
+height: 720px;
+width: 910px;
+background-color: #04AA6D;
+}
+
+#precontact {
+  position: absolute;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+  font-size: 13px;
+  top: 240px;
+  left: 390px;
+  width: 650px;
+}
+
+#contacthead {
+  position: absolute;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+  font-family: 14px;
+  top: 180px;
+  left: 585px;
+  z-index: 99;
+}
+
+#contactform {
+  position: absolute;
+  border: 2px solid white;
+  height: 340px;
+  width: 650px;
+  top: 320px;
+  left: 380px;
+  background-color: tomato;
+}
+
+label {
+  position: absolute;
+  left: 180px;
+  color: black;
+}
+
+label[for='fname'] {
+  position: absolute;
+  top: 20px;
+}
+
+label[for='lname'] {
+  position: absolute;
+  top: 60px;
+}
+
+label[for='phone'] {
+  position: absolute;
+  top: 90px;
+}
+
+label[for='email'] {
+  position: absolute;
+  top: 130px;
+}
+
+input {
+  position: absolute;
+  left: 300px;
+}
+
+textarea {
+  position: absolute;
+  top: 200px;
+  left: 180px;
+}
+
+label[for='comments'] {
+  position: absolute;
+  top: 175px;
+}
+
+input[type='submit'] {
+  position: absolute;
+  top: 310px;
+  left: 420px;
+}
+
+#dbcast {
+  position: absolute;
+  top: 880px;
+  left: 480px;
+}
+
+@keyframes fadeOut {
+  100% {
+      opacity: 0;
+      visibility: hidden;
+  }
+}
+
+.loader {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(/src/assets/images/zhanweb.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-color: white;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader.hidden {
+  animation: fadeOut 1s;
+  animation-fill-mode: forwards;
+}
+
+#modaltitle {
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+}
+
+#modalprices {
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+}
+
+#modaldesc {
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#closebutton {
+position: absolute;
+top: 20px;
+left: 870px;
+}
+#purchase {
+  position: absolute;
+  top: 330px;
+  left: 370px;
+}
+
+#submitbutton {
+  position: relative;
+  top: 328px;
+  left: 350px;
+}
+#asclink {
+  position: absolute;
+  top: -10px;
+  left: 40px;
+  z-index: 99;
+}
+
+#dsclink {
+  position: absolute;
+  left: 40px;
+  top: 20px;
+}
+
+.dropdown {
+  position: relative;
+  top: 150px;
+  left: 300px;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0px;
+  background-color: gold;
+  min-width: 160px;
+  min-height: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown2 {
+  position: relative;
+  top: 150px;
+  left: 700px;
+  display: inline-block;
+  
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  left: 0px;
+  background-color: gold;
+  min-width: 160px;
+  min-height: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 2;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+#article4 {
+  position: absolute;
+  border: 3px solid black;
+  padding: 100px;
+  width: 690px;
+  height: 830px;
+  top: 150px;
+  left: 263px;
+  background-color: gold;
+}
+
+.grid-container3 {
+  position: absolute;
+  top: 270px;
+  left: 380px;
+  display: grid;
+  grid-template-columns: auto;
+  padding: 0px;
+}
+
+.grid-container3 > .grid-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.grid-container3 > .grid-item > hr {
+  position: absolute;
+  width: 700px;
+}
+
+#cartprice {
+  position: relative;
+  top: -10px;
+  left: 500px;
+  width: 100%;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+}
+
+#carttitle {
+  position: relative;
+  top: 20px;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+}
+
+#totalprice {
+  position: relative;
+  left: 540px;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+}
+
+#checkout {
+  position: relative;
+  left: 290px;
+  height: 40px;
+  width: 120px;
+}
+
+#tottitle {
+  position: relative;
+  left: 280px;
+  top: -20px;
+  font-family: 'Anime Ace 2.0 BB', Helvetica, sans-serif;
+}
+
+#totprice {
+  opacity: 0;
+}
+
+#totsubmit {
+  position: relative;
+  top: 125px;
+  left: 300px;
+}
+
+#card1 {
+  position: relative;
+  top: 50px;
+}
+
+#card2 {
+  position: relative;
+  left: 200px;
+}
+
+#card3 {
+  position: relative;
+  top: -75px;
+  left: 400px;
+}
+
+#card4 {
+  position: relative;
+  top: -145px;
+  left: 600px;
+}
+
+.invicible {
+  opacity: 0;
+}
